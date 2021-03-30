@@ -1,5 +1,8 @@
+/**************************************
+       Used by all .html
+ **************************************/
 body {
-    background-image: linear-gradient(white, rgba(11, 165, 106, 0.25));
+    background-image: linear-gradient(white, rgba(11, 165, 106, 0.35));
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,6 +33,9 @@ body {
 	font-weight: bold;
 }
 
+/**************************************
+       Unique to landingPg.html 
+ **************************************/
 .signUpBox {
 	margin: 40px;
 	text-align: center;
@@ -37,9 +43,56 @@ body {
 	width: 400px;
 	border-radius: 10px;
 	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	box-shadow: 10px 20px 16px #696767;
+	background-color: white;
 }
 
 .signUpTxtBx {
 	margin: 10px 0px 10px 0px;
 	text-align: center;
+	width: 300px;
+	height: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: rgba(143, 138, 138, 0.384);
+	border:none;
 }
+.signUpTxtBx:hover {
+	font-weight: bold;
+}
+.signUpTxtBx:focus {
+	font-weight: bold;
+	background-color: whitesmoke;
+	background-color: rgba(170, 172, 171, 0.281);
+	box-shadow: 4px 8px 6px #696767;
+}
+#signUpBtn {
+	margin-top: 30px; 
+	border: none; 
+	width: 120px; 
+	height: 40px; 
+	background-color: aquamarine; 
+	border-radius: 10px; 
+	font-weight: bold;
+}
+#signUpBtn:hover {
+	box-shadow: 4px 8px 6px #696767;
+}
+#quotes {
+	margin-top: 200px;
+	background-color: white;
+	box-shadow: 4px 8px 6px #696767, 4px 8px 6px #696767;
+}
+
+/**************************************
+       Unique to about.html 
+ **************************************/
+
+/**************************************
+       Unique to financialResources.html 
+ **************************************/
+
+/**************************************
+       Unique to app.html 
+ **************************************/
