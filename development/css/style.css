@@ -81,8 +81,24 @@ body {
 }
 #quotes {
 	margin-top: 200px;
+	box-shadow: 4px 8px 6px #696767;
 	background-color: white;
-	box-shadow: 4px 8px 6px #696767, 4px 8px 6px #696767;
+}
+
+#description {
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
+#goBack {
+	background-color: white;
+	border-style: none;
+	width: 120px;
+	height: 50px;
+}
+#goBack:hover {
+	background-image: linear-gradient(rgba(11, 165, 106, 0.15), white);
+	box-shadow: 4px 8px 6px #696767;
 }
 
 /**************************************
