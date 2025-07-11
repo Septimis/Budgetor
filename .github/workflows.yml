@@ -1,0 +1,16 @@
+name: Enforce dev-only PRs to production
+on:
+  pull_request:
+    branches:
+      - production
+
+jobs:
+  check-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail if not from dev
+        run: |
+          if [ "${{ github.head_ref }}" != "dev" ]; then
+            echo "Only pull requests from 'dev' can be merged into 'production'."
+            exit 1
+          fi
