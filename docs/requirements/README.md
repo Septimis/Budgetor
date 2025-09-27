@@ -1,0 +1,3 @@
+# Budgetor Requirements
+
+The requirements of Budgetor are split into [functional and non-functional](https://www.geeksforgeeks.org/software-engineering/functional-vs-non-functional-requirements/) requirements. Each release of Budgetor will contain these requirements to track progress and measure success. Versioning names will be fashioned after historical and present day currencies as well as having a version number for convenience.
