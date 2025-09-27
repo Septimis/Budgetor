@@ -45,6 +45,15 @@
         * **7.2.3:** The sum of all transaction parts must equal the transaction amount
         * **7.2.4:** The name of the transaction part shall be the name of the transaction
     * **7.3:** A transaction, whether in parts or in whole, shall be assigned to a *Category* in order to be counted towards a *Containers* amount and by extension, the budget
+* **8 (Inquries):** [RaVU](#acronyms)s shall be able to make inquiries into their budget in order to gain insights into how they are spending and earning money
+    * **8.1:** Users shall be able to filter transactions by name and/or date range
+    * **8.2:** Users shall be able to visually view the flow of money starting from a specific date and running until a later date
+        * **8.2.1:** This flow shall include incoming and outgoing money, in order, and transaction by transaction
+        * **8.2.2:** Users shall be able to view this flow in a step by step fashion, or as a fluid animation
+        * **8.2.3:** Users shall be able to filter this flow to view one, many, or all *Financial Accounts*
+    * **8.3:** Users shall be able to view their inquiries in graph form
+        * **8.3.1:** Users shall be able to download the graphs generated
+    * **8.4:** Users shall **not** be able to view insights or make inquiries if there are uncategorized transactions *(See requirement **7.3**)*
 
 ## Non-Functional
 
@@ -54,7 +63,6 @@
 * **3:** [RaVU](#acronyms)s shall be able to easily distinguish between their own budget and budgets shared by other [RaVU](#acronyms)s
 * **4:** The flow of money from flow object to flow object shall be visually intuitive
 * **5:** Uncategorized transactions shall be visually distinct and indicate a warning to the user that the transaction is *not* being counted toward the budget
-    * **5.1:** The user shall not be able to run inqueries on their budget until all uncategorized transactions have been categorized
 
 ## Acronyms
 
